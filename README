@@ -1,0 +1,6 @@
+README
+
+To run the experiments, type "python backprop.py" into the command line.
+The program will ask you three prompts about the experiments. The first is the 838 experiment. The second and third are the width and depth experiments. To skip these, enter "n" after each prompt. To go ahead with one, enter "y"
+Then the program will prompt you for input starting with training file name, test file name, depth, width, learning rate, and iterations, and it will return to you an error rate on the test set.
+Alternatively, you could import the neural_net class from backprop.py into your own code and test it that way. Details of it's functions are demonstrated in backprop.py.
